@@ -10,13 +10,13 @@ The main analysis code can be found in `main.ipynb`.
 
 The data was collected from Telegram channels of the following actors:
 
-- **State Administration Council** (now *State Security and Peace Commission*) — **SAC**
-- **National Unity Government** — **NUG**
-- **United Arakan League** — **UAL**
-- **Palaung State Liberation Front** — **PSLF**
-- **Karen National Union** — **KNU**
-- **Karenni Nationalities Defence Force** — **KNDF**
-- **Chinland National Front** — **CNF**
+- **State Administration Council** (now *State Security and Peace Commission*) — **SAC** — t.me/nationalnewschannel | t.me/hminewai |  t.me/Hno969888
+- **National Unity Government** — **NUG** — t.me/nugmyanmar 
+- **United Arakan League** — **UAL** — t.me/aainfodesk
+- **Palaung State Liberation Front** — **PSLF** — t.me/taangtv2023
+- **Karen National Union** — **KNU** — t.me/Karen_Information_Center
+- **Karenni Nationalities Defence Force** — **KNDF** — t.me/KNDF_official
+- **Chinland National Front** — **CNF** — t.me/Chinlandinformationcenter
 
 The data was initially collected in **JSON format**, then converted into datasets and cleaned.
 

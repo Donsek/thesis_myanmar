@@ -40,12 +40,36 @@ For further analysis, the dataset (`mentions_english.csv`) was translated into E
 
 ---
 
-## Methodology
+## Research question
 
-**UMAP** was used to project sentence embeddings into a two-dimensional space in order to preserve local semantic neighborhoods. Actor labels were applied *post hoc*, allowing for an unsupervised assessment of discursive proximity between **SAC**, **NUG**, and **EAO** communications.
+How do different actors in the Myanmar conflict talk about external actors, over time, and in what contexts?
 
 ---
 
-## Visualization
+## Overview
+
+After preprocessing and exploding multi-actor mentions, the dataset contains:
+
+- **Total external actor mentions:** 9,540  
+- **Myanmar conflict actors:** 7  
+- **External actors covered:** 9  
+
+- **Most posts from:** SAC  
+- **Most frequently external actor in the dataset:** West  
+
+Each row in the dataset represents a **single mention of an external actor** within a Telegram post.  
+Posts mentioning multiple external actors are counted once per actor.
+
+## Heatmap: who mentions whom
+
+The heatmap shows the distribution of external actor mentions across Myanmar conflict actors.
+Values represent the share of mentions normalized within each actor, with darker colors indicating greater relative attention to a given external actor.
+A logarithmic scale is applied to enhance visual contrast.
+
+![alt text](image-1.png)
+
+## UMAP
+
+**UMAP** was used to project sentence embeddings into a two-dimensional space in order to preserve local semantic neighborhoods. Actor labels were applied *post hoc*, allowing for an unsupervised assessment of discursive proximity between **SAC**, **NUG**, and **EAO** communications.
 
 ![UMAP](image.png)
